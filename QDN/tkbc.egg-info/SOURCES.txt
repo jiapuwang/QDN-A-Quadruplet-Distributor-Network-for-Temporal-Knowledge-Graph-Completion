@@ -1,0 +1,13 @@
+README.md
+setup.py
+tkbc/datasets.py
+tkbc/learner.py
+tkbc/models.py
+tkbc/optimizers.py
+tkbc/process_icews.py
+tkbc/process_timegran.py
+tkbc/regularizers.py
+tkbc.egg-info/PKG-INFO
+tkbc.egg-info/SOURCES.txt
+tkbc.egg-info/dependency_links.txt
+tkbc.egg-info/top_level.txt
