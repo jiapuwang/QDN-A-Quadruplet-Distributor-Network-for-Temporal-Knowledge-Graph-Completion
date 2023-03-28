@@ -3,8 +3,8 @@
 ## Installation
 Create a conda environment with pytorch and scikit-learn :
 ```
-conda create --name telm_env python=3.7
-source activate telm_env
+conda create --name QDN_env python=3.7
+source activate QDN_env
 conda install --file requirements.txt -c pytorch
 ```
 
@@ -23,9 +23,9 @@ python process_timegran.py --tr 100 --dataset yago11k
 
 This will create the files required to compute the filtered metrics.
 
-## Reproducing results of TeLM
+## Reproducing results of QDN
 
-In order to reproduce the results of TeLM on the four datasets in the paper, go to the tkbc/ folder and run the following commands
+In order to reproduce the results of QDN on the four datasets in the paper, go to the tkbc/ folder and run the following commands
 
 ```
 python learner.py --dataset ICEWS14 --model TeLM --rank 2000 --emb_reg 0.0075 --time_reg 0.01 
